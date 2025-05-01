@@ -30,7 +30,7 @@ Here, the models unanimously classify the Reuters news article about Indonesia's
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Fake-News-Detection.git
+git clone https://github.com/0-SiddharthJoshi-0/Fake-news-Detection
 
 # Navigate to project directory
 cd Fake-News-Detection
@@ -67,7 +67,11 @@ python process_data.py
 The project uses an enhanced training script that trains multiple models simultaneously. To train all models:
 
 ```bash
-python train_enhanced.py
+python train_decision_tree.py
+python train_gradient_boosting.py
+python train_logistic_regression.py
+python train_random_forest.py
+python train_lstm.py
 ```
 
 This will:
