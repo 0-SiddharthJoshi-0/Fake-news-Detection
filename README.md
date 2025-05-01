@@ -64,7 +64,7 @@ python process_data.py
 
 ### 2. Training the Models
 
-The project uses an enhanced training script that trains multiple models simultaneously. To train all models:
+To train all models:
 
 ```bash
 python train_decision_tree.py
